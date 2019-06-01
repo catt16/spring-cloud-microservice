@@ -21,5 +21,7 @@ Here are 4 sample microservices based on Spring Boot Framework.
    Service Consumer uses the Spring Could Ribbon as the client side load balancer.
    Service Consumer uess the Spring Cloud Hystrix as the fallback once the service is broken.
 
-5. Reference
+5. Dockerfile is in src/main/docker folder for each microservice.
+
+6. Reference
    https://spring.io/
