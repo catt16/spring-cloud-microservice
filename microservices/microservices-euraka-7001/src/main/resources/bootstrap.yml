@@ -1,0 +1,8 @@
+﻿spring: 
+  cloud: 
+    config: 
+      name: microservicecloud-config-eureka-client     #resource name in git hub
+      profile: dev 
+      label: master 
+      #uri: http://config-3344.com:33344      #service address
+      uri: http://172.17.0.2:3344

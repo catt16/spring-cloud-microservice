@@ -1,0 +1,10 @@
+﻿spring:
+  cloud:
+    config:
+      name: microservicecloud-config-provider-client #ressource name read from git hub
+      #profile dev or test
+      profile: dev
+      #profile: test
+      label: master
+      uri: http://172.17.0.2:3344  #SpringCloudConfig service address
+

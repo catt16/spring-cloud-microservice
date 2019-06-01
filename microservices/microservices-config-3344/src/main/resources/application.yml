@@ -1,0 +1,14 @@
+﻿server: 
+  port: 3344 
+  
+spring:
+  application:
+    name:  microservicecloud-config
+  cloud:
+    config:
+      server:
+        git:
+          #uri: git@github.com:catt16/config-repo.git #GitHub Repo
+          uri: https://github.com/catt16/config-repo
+          username: catt16@gmail.com
+          password: Wql0-dev
