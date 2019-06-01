@@ -1,0 +1,5 @@
+The four docker files used to build each service images. These images are based on the official CentOS 7 on docker hub.
+
+The sample docker build command is like:
+
+docker build --rm -t centos7:springeureka . 
