@@ -1,6 +1,6 @@
 Here is the architecture of the entire system:
 
-![Architecture](./arch.png?raw=true "Architecture")
+![Architecture](arch.png)
 
 They are 4 sample microservices based on Spring Boot Framework. 
 
