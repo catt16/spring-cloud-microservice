@@ -30,7 +30,9 @@ There are 4 sample microservices:
 5. Dockerfile is in src/ folder for each microservice. The built image size differs from 130M to 150M.
 
    "docker build --rm -t config:latest ."
+   
    "docker tag config:latest 573880122646.dkr.ecr.ap-southeast-1.amazonaws.com/centos7:config"
+   
    "docker push 573880122646.dkr.ecr.ap-southeast-1.amazonaws.com/centos7:config"
    
    ![alt tag](https://user-images.githubusercontent.com/5929519/58835819-8adea780-8689-11e9-924d-480dcf6e536b.png)
