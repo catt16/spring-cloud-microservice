@@ -33,7 +33,7 @@ There are 4 sample microservices:
    "docker tag config:latest 573880122646.dkr.ecr.ap-southeast-1.amazonaws.com/centos7:config"
    "docker push 573880122646.dkr.ecr.ap-southeast-1.amazonaws.com/centos7:config"
    
-   ![alt tag]https://user-images.githubusercontent.com/5929519/58835819-8adea780-8689-11e9-924d-480dcf6e536b.png
+   ![alt tag](https://user-images.githubusercontent.com/5929519/58835819-8adea780-8689-11e9-924d-480dcf6e536b.png)
 
 6. Reference
    https://spring.io/
