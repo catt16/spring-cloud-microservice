@@ -1,6 +1,6 @@
 Here is the architecture of the entire system:
 
-![Architecture](arch.png)
+https://user-images.githubusercontent.com/5929519/58834535-3b4aac80-8686-11e9-8687-0ad7f7332e3c.png
 
 They are 4 sample microservices based on Spring Boot Framework. 
 
