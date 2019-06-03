@@ -1,4 +1,8 @@
-Here are 4 sample microservices based on Spring Boot Framework. 
+Here is the architecture of the entire system:
+
+![Architecture](./arch.png?raw=true "Architecture")
+
+They are 4 sample microservices based on Spring Boot Framework. 
 
 1. Spring Cloud Config Server
    Config Server works as the centralized configuration component which is used by Eureka Server and Service Provider Service. 
