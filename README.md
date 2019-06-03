@@ -27,7 +27,9 @@ There are 4 sample microservices:
    Service Consumer uses the Spring Could Ribbon as the client side load balancer.
    Service Consumer uess the Spring Cloud Hystrix as the fallback once the service is broken.
 
-5. Dockerfile is in src/ folder for each microservice.
+5. Dockerfile is in src/ folder for each microservice. The image sizes are about 160M ~ 180M.
+
+   docker build --rm -t consumer:latest .
 
 6. Reference
    https://spring.io/
